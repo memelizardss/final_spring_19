@@ -1,0 +1,52 @@
+@font-face{
+    font-family: "FiraSansCondensed-Bold";
+    src: url(FiraSansCondensed-Bold-webfont.woff) format("woff");
+    font-family: "RobotoSlab-Bold";
+    src: url(RobotoSlab-Bold-webfont.woff) format("woff");
+    font-family: "RobotoSlab-Regular";
+    src: url(RobotoSlab-Regular-webfont.woff) format("woff")
+
+}
+h2{
+    float: right;
+    font-family: "FiraSansCondensed-Bold";
+    font-size: 150px;
+    color: #014262;
+    padding:5px;
+    background-color: #fbf7eb
+}
+#firstline{
+    font-family: "RobotoSlab-Bold";
+    font-size: 20px;
+    color: #014262
+
+}
+p{
+    font-family: "RobotoSlab-Regular";
+    font-size: 16px;
+    color: #4e4e4e
+}
+section{
+    display:grid;
+    columns: repeat (12, 1fr);
+
+}
+#island{
+    grid-column: 1/6;
+    width: 50%
+}
+#dude{
+    grid-column: 5/7
+}
+#tree{
+    grid-column: 7/9
+}
+#gorl{
+    grid-column: 9/11
+}
+.bottomimages{
+    width: 80%
+}
+p{
+    grid-column: 6/12
+}
